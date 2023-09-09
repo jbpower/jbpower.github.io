@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Roboto&display=swap');
+
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0;
-  padding: 0;
-  background-image: url(/images/bg.png);
+  padding: 2em;
+
+  font-family: Roboto, sans-serif;
+  text-align: center;
+
+  /* background: radial-gradient(circle, #efefef 0%, #d5e8ff 100%); */
+}
+
+img {
+  max-width: 400px;
+}
+
+h1, h2 { font-family: 'Glass Antiqua';}
+
+p {
+  max-width: 70ch;
 }
