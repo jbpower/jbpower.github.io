@@ -1,46 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Montserrat&display=swap');
 
 :root {
-  --background-color: white;
-  --color: black;
-  --link-color:
-;
-  --gradient-outer: #d5e8ff;
-  --gradient-inner: #fff;
+  --highlight-color: #f4cf81;
 }
 
-/* @media (prefers-color-schreme: dark) {
-  :root {
-    --background-color: black;
-    --color: white;
-    --link-color: blue;
-  }
-} */
-
 body {
-  margin: 0;
+  max-width: 768px;
+  margin: 0 auto;
   padding: 2rem;
 
   font-family: Montserrat, sans-serif;
   font-size: 20px;
   text-align: center;
 
-  background-color: var(--background-color);
-  color: var(--color);
-  /* background: radial-gradient(circle, #efefef 0%, #d5e8ff 100%); */
-  /* background: rgb(213,232,255); */
-  /* background: linear-gradient(90deg, var(--gradient-outer) 0%, var(--gradient-inner) 50%, var(--gradient-outer) 100%) */
   background-image: url('/images/bg-2.jpeg');
   background-size: cover;
 }
 
-img {
+#sun {
   max-width: 320px;
   margin-bottom: 20px;
 }
 
 h1 {
-  margin: 0 0 0.5em;
+  margin: 0 0 2rem;
+  border-color: var(--highlight-color);
   font-family: 'Glass Antiqua';
 }
 
@@ -48,37 +32,39 @@ h1 {
   display: inline-block;
   border: solid;
   padding: 1rem 2rem;
-  background-color: #9ddef3;
+  background-color: var(--highlight-color);
   border: none;
   text-decoration: none;
   border-radius: 0.5rem;
 }
 
-.button,
-.button:visited,
-.button:hover,
-.button:focus,
-.button:active {
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
   color: black;
 }
 
 p {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2rem auto;
   max-width: 50ch;
 }
 
 section {
   display: flex;
   justify-content: center;
-  margin: 1rem 0;
+  width: 100%;
+  margin: 2rem auto;
   gap: 1rem;
 }
 
-section img {
-  margin-bottom: 0;
+img {
+  max-width: 100%;
 }
 
 hr {
-  margin: 4rem 0;
+  margin: 3rem 0;
+  border-color: var(--highlight-color);
+  border-style: solid;
 }
