@@ -8,6 +8,7 @@ body {
   max-width: 768px;
   margin: 0 auto;
   padding: 1rem;
+  padding-bottom: 4em;
 
   font-family: Montserrat, sans-serif;
   font-size: 20px;
@@ -15,10 +16,11 @@ body {
 
   background-image: url('/images/bg.webp');
   background-size: cover;
+
+  scroll-behavior: smooth;
 }
 
 #sun {
-  max-width: 320px;
   margin-bottom: 20px;
 }
 
@@ -84,6 +86,7 @@ section {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 hr {
