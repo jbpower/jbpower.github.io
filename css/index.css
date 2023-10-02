@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Josefin+Slab:wght@700&display=swap');
 
 :root {
   --highlight-color: #f4cf81;
@@ -10,9 +10,10 @@ body {
   padding: 1rem;
   padding-bottom: 4em;
 
-  font-family: Montserrat, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   text-align: center;
+  font-weight: 300;
 
   background-image: url('/images/bg.webp');
   background-size: cover;
@@ -41,7 +42,7 @@ nav {
 h1 {
   margin: 0 0 2rem;
   border-color: var(--highlight-color);
-  font-family: 'Glass Antiqua';
+  font-family: 'Josefin Slab';
 }
 
 .button {
@@ -74,6 +75,11 @@ p {
   margin: 2rem auto;
   max-width: 50ch;
   line-height: 1.5;
+}
+
+p strong {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 section {
